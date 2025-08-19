@@ -3,6 +3,8 @@
 A small CLI to produce a binary change mask from two co-registered GeoTIFFs (earlier  ```t1 ```, later  ```t2 ```).
 It loads a Lightning ```.ckpt``` checkpoint, handles band reordering, optional histogram matching, sliding window inference with cosine blending, and writes both a GeoTIFF and a PNG mask.
 
+**Important:** best.ckpt is larger than 90 MP it has been uploaded here: [Trained model](https://nilu365-my.sharepoint.com/:u:/g/personal/bbel_nilu_no/ETgCjFkfxdFCgZ_3rPTnDH0BzSCZdA-1G625G_8kPtp2KA?e=pkPKSy)
+
 ## Quick start
 ```
 python -m pip install --upgrade pip
