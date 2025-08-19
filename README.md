@@ -11,7 +11,7 @@ python -m pip install --upgrade pip
 pip install torch rioxarray xarray rasterio scikit-image imageio
  ```
  ```
-python infer_change.py 2018-IR_LUXEMBOURG_1m_T20.tif 2021-IR_LUXEMBOURG_1m_T20.tif  --ckpt best.ckpt --stats stats.json --out outputs_fix  --diff-mode auto --band-order 1,2,0 --threshold 0.30 --min-blob 0 --stride 128 --no-prob
+python infer_change.py 2018-IR_LUXEMBOURG_1m_T20.tif 2021-IR_LUXEMBOURG_1m_T20.tif  --ckpt best.ckpt --stats stats.json --out outputs_result  --diff-mode auto --band-order 1,2,0 --threshold 0.30 --min-blob 0 --stride 128 --no-prob
  ```
  Use the same ```stats.json``` from training so normalization matches what the checkpoint expects.
 
